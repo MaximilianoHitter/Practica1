@@ -1,0 +1,54 @@
+:root {
+    --fondo1: #D5C67A;
+    --fondo2: #495867;
+    --azul: #577399;
+    --rojo: #de2300;
+    --letra: 'Quicksand';
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--fondo1);
+    font-size: 16px;
+    font-family: var(--letra);
+}
+
+.titulo {
+    text-align: center;
+    color: var(--rojo);
+}
+
+.contenedor {
+    width: 120rem;
+    /*margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;*/
+    margin: 0 auto 0 auto;
+}
+
+.nav-bg {
+    background-color: var(--fondo2);
+}
+
+.navegacion-principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navegacion-principal a {
+    padding: 1rem;
+    color: var(--fondo1);
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.navegacion-principal a:hover {
+    background-color: var(--rojo);
+    border-radius: 15px;
+    color: var(--azul)
+}
